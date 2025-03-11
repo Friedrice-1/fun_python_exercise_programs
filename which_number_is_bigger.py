@@ -7,8 +7,8 @@ num_2 = int(input("Please enter the second  number: "))
 # print the bigger number
 
 if num_1 > num_2:
-    print(f'{num_1} is greater than {num_2}')
+    print(f"{num_1} is greater than {num_2}")
 elif num_2 > num_1:
-    print(f'{num_2} is greater than {num_1}')
+    print(f"{num_2} is greater than {num_1}")
 else:
-    print('Numbers are equal.')
+    print("Numbers are equal.")
