@@ -7,3 +7,5 @@ num_2 = int(input("Please enter the exponent: "))
 
 # raise the first number by the second number
 # print result
+
+print(num_1 ** num_2)
