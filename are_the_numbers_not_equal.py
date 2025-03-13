@@ -7,6 +7,6 @@ num_2 = int(input("Please enter the second  number: "))
 # print result
 
 if num_1 != num_2:
-    print("Numbers are not equal")
+    print("Numbers are NOT equal")
 else:
     print("Numbers are equal.")
