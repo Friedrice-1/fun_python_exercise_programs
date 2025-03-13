@@ -9,4 +9,6 @@ while True:
     if current_number == 101:
         break
 # check if the current number is odd
+    if current_number % 2 != 0:
 # print number
+        print(current_number)
