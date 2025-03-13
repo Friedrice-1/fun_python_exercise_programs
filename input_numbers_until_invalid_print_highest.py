@@ -12,4 +12,5 @@ while True:
     except ValueError:
         break
 
-# print lowest number in the inputs
+# print highest number in the inputs
+print(f"Highest number entered: {max(numbers)}")
