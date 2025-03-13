@@ -9,6 +9,9 @@ for inputs in range(10):
     number = int(input(f"Number {inputs + 1}: "))
     numbers.append(number)
 
-print(numbers)
 # check if inputs numbers have occured
+for number in numbers:
+    if number not in seen_numbers:
+        seen_numbers.add(number)
 # print output
+        print(number, end=" ")
