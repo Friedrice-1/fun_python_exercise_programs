@@ -9,6 +9,9 @@ total_sum = 0
 while True:
     try:
         number = int(input("Please enter a number: "))
+        total_sum += number
+        input_count += 1
     except ValueError:
         break
 # print average
+print(f"The average is: {total_sum / input_count}")
