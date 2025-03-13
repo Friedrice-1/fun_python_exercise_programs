@@ -8,7 +8,11 @@ while True:
     try:
         number = int(input("Please enter a number: "))
 # append input to the list
+        numbers.append(number)
 # check if input is invalid
     except ValueError:
         break
+
 # print lowest number in the inputs
+
+print(f"Lowest number entered: {min(numbers)}")
