@@ -6,3 +6,5 @@ divisor = int(input("Please enter the divisor: "))
 
 # divides the 2 numbers
 # prints the result
+
+print(f"The quotient is: {(dividend // divisor)}")
