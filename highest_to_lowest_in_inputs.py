@@ -12,4 +12,7 @@ while True:
 # check if input is invalid
     except ValueError:
         break
+
 # print list from highest to lowest
+numbers.sort(reverse=True)
+print(numbers)
