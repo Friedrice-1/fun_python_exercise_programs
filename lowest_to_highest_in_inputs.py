@@ -8,7 +8,10 @@ while True:
     try:
         number =  int(input("Please enter a number: "))
 # append input to the list
+        numbers.append(number)
 # check if input is invalid
     except ValueError:
         break
 # print list from lowest to highest
+numbers.sort()
+print(numbers)
